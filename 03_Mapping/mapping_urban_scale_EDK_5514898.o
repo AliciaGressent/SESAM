@@ -1,0 +1,27 @@
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 5514898
+Jobname   : mapping_EDK
+User      : gressena
+Account   : inerdrc@broadwell
+Limits    : time = 2-00:00:00 , memory/task = 4390 Mo
+Date      : submit = 23/07/2020 10:13:18 , start = 23/07/2020 10:40:12 , end = 25/07/2020 10:40:14
+Execution : partition = broadwell , QoS = long , Comment = (null)
+Resources : ntasks = 2 , cpus/task = 24 , ncpus = 48 , nodes = 2
+   Nodes=cobalt1028 CPU_IDs=0-17,19-24 Mem=105360 GRES_IDX=
+   Nodes=cobalt1221 CPU_IDs=0-2,4-24 Mem=105360 GRES_IDX=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+5514898         mapping_EDK                   -     48      2        -     01:15:56   (100%)            -            -      -  -
+########## ########## ########## ########## ########## ########## ########## ##########
