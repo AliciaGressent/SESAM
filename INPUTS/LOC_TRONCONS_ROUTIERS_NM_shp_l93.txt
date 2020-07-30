@@ -1,0 +1,73 @@
+
+================================================
+TITRE DU JEU DE DONNEES
+================================================
+
+Localisation des tronçons routiers de Nantes Métropole
+
+================================================
+DESCRIPTION
+================================================
+Liste des tronçons routiers utilisés pour qualifier la fluidité du trafic routier 
+accompagnée de la géo-localisation de chacun d'entre eux dans les formats géographiques. 
+L'information de fluidité associée à chacun des tronçons de cette liste est obtenue via 
+l'API getFluiditeAxesRoutiers.
+
+Thèmes 							: Mobilité
+
+================================================
+INFORMATIONS TECHNIQUES
+================================================
+
+Date de dernière mise à jour    : 27/03/2018
+Fréquence de mise à jour 		: trimestrielle
+Couverture Temporelle : Sans objet 
+
+Derniere mise à jour technique	:
+
+	Date : 27/03/2018
+	Nature de la modification : Mise a jour trimestrielle
+	Description de la modification : Mise a jour trimestrielle
+
+================================================
+ATTRIBUTS
+================================================
+
+
+ID             : Identifiant unique du tronçon routier
+NOM            : Nom de la voie avec indication du côté pair ou impair de la voie et du n° d'ordre du tronçon correspondant au sens de circulation
+SENS1          : Indication du sens dans lequel le trafic est orienté sur ce tronçon
+CLASSE         : Elément de hiérarchisation des voies. Les voies primaires sont classées dans l'ordre A1 (voies magistrales), A2 (voies principales d'intérêt d'agglomération reliant les grands quartiers et les centres-villes éloignés), B (voies principales d'intérêt local reliant les quartiers proches ; fusion de B1 et B2), C (voies secondaires ; fusion de C1 et C2)
+CLASSE_NUM     : Valeur numérique utilisée pour la hiérarchisation des voies (A1=1 ; A2=2 ; B1=3 ; B=4 ; C=5)
+MAITRE_OUVRAGE : Propriétaire des données
+DIFFUSION      : Autorisation de NM à diffuser les données dont elle est maître d'ouvrage
+ 
+
+================================================
+CONTACT
+================================================
+
+Pour toute demande d'information ou remarque, 
+merci de passer par le forum du site http://data.nantes.fr
+
+================================================
+INFORMATIONS LEGALES
+================================================
+
+
+Propriétaire : Nantes Métropole
+
+Gestionnaire : Nantes Métropole
+
+Diffuseur	 : Nantes Métropole
+
+Licence      : Open Database License (ODbL)
+
+================================================
+SIGNATURES DES FICHIERS
+================================================
+
+LOC_TRONCONS_ROUTIERS_NM.dbf (md5) : 37042bb17ba987f07b8bb8fbccd5fed6
+LOC_TRONCONS_ROUTIERS_NM.prj (md5) : f6d4872436dd3f0336bd65be52e7e522
+LOC_TRONCONS_ROUTIERS_NM.shp (md5) : e762fd305ca5fef505233dfc611f08a3
+LOC_TRONCONS_ROUTIERS_NM.shx (md5) : 51a8cfba0f251eea343012c37a2b81b2
