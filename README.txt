@@ -6,7 +6,7 @@ Dans Gressent et al., 2020, les cartographies ont été réalisées pour les PM1
 Les scripts sont écrits en language R. 
 Le krigage est réalisé à partir de la librairie RGeostat (un package pour les applications geostatistiques, MINES ParisTech / ARMINES (2019), RGeostats: The Geostatistical R Package. Version: 11.2.3, Free download from:http://cg.ensmp.fr/rgeostats)
 
-1) 01_Analyse:
+1) 01_Stat:
 Analyse exploratoire des données de capteurs, comparaison capteurs fixes / stations de référence
 Calcul du seuil de répétabilité pour filtrer le jeu de données
 
