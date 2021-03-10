@@ -1,5 +1,5 @@
 # Set directory
-setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/02_Preproc/") # !!! MUST BE UPDATED BY THE USER !!!
+setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/02_Preproc/") # !!! MUST BE UPDATED BY THE USER !!!
 
 # Import libraries
 library(sp) 
@@ -28,9 +28,9 @@ print("INITIALIZATION")
 city="Nantes"
 pol="PM10"
 unit="(ug/m3)"
-indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/INPUTS/"
-dirout <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/02_Preproc/figs/"
-dirout2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/OUTPUTS/"
+indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/INPUTS/"
+dirout <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/02_Preproc/figs/"
+dirout2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/OUTPUTS/"
 drift_file="TIN_Nantes_PM10_MOYcorr.asc"
 xmin=326361.53; # x min in Lambert 93, depend on the calculation domain
 ymin=6675394.0; # y min in Lambert 93, depend on the caluclation domain
