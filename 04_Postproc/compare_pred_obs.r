@@ -1,5 +1,5 @@
 # Set directory
-setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/04_Postproc/") # !!! MUST BE UPDATED BY THE USER !!!
+setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/04_Postproc/") # !!! MUST BE UPDATED BY THE USER !!!
 
 # Import libraries
 library(maptools);library(RColorBrewer)
@@ -44,10 +44,10 @@ time_start = as.POSIXct("2018-11-29 06:00:00",origin = "1970-01-01", tz="GMT") #
 time_end = as.POSIXct("2018-11-29 19:00:00",origin = "1970-01-01", tz="GMT") # end data selection
 
 # Directory paths and file names
-indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/INPUTS/" # directory of inputs
-indir2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/OUTPUTS/" # directory2 of inputs (mapping outputs) 
-outdir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/OUTPUTS/" # directory of outputs
-outdir2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/04_Postproc/figs/" # directory of plots
+indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/INPUTS/" # directory of inputs
+indir2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/OUTPUTS/" # directory2 of inputs (mapping outputs) 
+outdir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/OUTPUTS/" # directory of outputs
+outdir2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/04_Postproc/figs/" # directory of plots
 model_file <- "NA_ADMS-urban_nov2018v2.pst" # hourly output ADMS for the entire estimation period (November 2018)
 ref_file <- "mesures_ref_qthourly_PM10.txt" # reference data file
 
