@@ -9,7 +9,7 @@
 #MSUB -e mapping_urban_scale_EDK_%I.e
 #MSUB -A inerdrc
 
-Rlog=/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/03_Mapping/mapping_urban_scale_EDK.Rlog
+Rlog=/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/03_Mapping/mapping_urban_scale_EDK.Rlog
 
 module load gnu
 
