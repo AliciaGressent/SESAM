@@ -1,5 +1,5 @@
 # Set directory
-setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/01_Stat/") # !!! MUST BE UPDATED BY THE USER !!!
+setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/01_Stat/") # !!! MUST BE UPDATED BY THE USER !!!
 
 # Import libraries
 library(raster)
@@ -38,8 +38,8 @@ avgsens <- function(i,data1_sta_all,data2_sta_all){
 #           INITIALIZATION          # !!! MUST BE UPDATED BY THE USER !!!          
 #####################################
 
-indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/INPUTS/" # path for input directory
-dirout <-"/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/01_Stat/figs/" # path for output directory
+indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/INPUTS/" # path for input directory
+dirout <-"/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/01_Stat/figs/" # path for output directory
 start_date <-"2018-11-01 00:00:00" # starting date
 end_date <-"2018-11-30 23:59:59" # ending date
 pol <- "PM10" # pollutant
