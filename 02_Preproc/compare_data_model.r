@@ -1,5 +1,5 @@
 # Set directory
-setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/02_Preproc/") # !!! MUST BE UPDATED BY THE USER !!!
+setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/02_Preproc/") # !!! MUST BE UPDATED BY THE USER !!!
 
 # Import libraries
 library(raster)
@@ -23,10 +23,10 @@ library(geosphere)
 
 print("INITIALIZATION")
 
-indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/INPUTS/" # path for input directory
-indir2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/OUTPUTS/" # path for input directory2
-dirout <-"/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/02_Preproc/figs/" # path for output directory plot
-dirout2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/OUTPUTS/" # path for output directory files 
+indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/INPUTS/" # path for input directory
+indir2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/OUTPUTS/" # path for input directory2
+dirout <-"/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/02_Preproc/figs/" # path for output directory plot
+dirout2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/OUTPUTS/" # path for output directory files 
 pol <- "PM10" # pollutant
 Msens_file <- "dataout_mobile_atmotrack_novembre_temp_hum_press.csv" # sensor measurements file name
 estim_period <- "112018"; estim_date <- "2018-11"; estim_date2 <- "201811" # estimation date
