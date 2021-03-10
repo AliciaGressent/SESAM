@@ -1,4 +1,4 @@
-Descriptif du répertoire SESAM (d'après Gressent et al., 2020)
+Descriptif du répertoire data fusion with SEnsorS for Air quality Mapping (SESAM), d'après Gressent et al., 2020)
 
 Ce répertoire contient les scripts permettant de réaliser la fusion de données pour la cartographie de la qualité de l'air à l'échelle urbaine
 Dans Gressent et al., 2020, les cartographies ont été réalisées pour les PM10 à Nantes à partir des données de capteurs de la société AtmoTrack, des observations des stations de référence d'Air Pays de la Loire et des sorties du modèle ADMS-Urban utilisées comme dérive pour le krigeage en dérive externe.
