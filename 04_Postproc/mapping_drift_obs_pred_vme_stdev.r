@@ -1,5 +1,5 @@
 # Set directory
-setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/04_Postproc/") # !!! MUST BE UPDATED BY THE USER !!!
+setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/04_Postproc/") # !!! MUST BE UPDATED BY THE USER !!!
 
 # Import libraries
 library(maptools);library(RColorBrewer)
@@ -69,13 +69,13 @@ estim_HH_start_list <- c("08")
 estim_HH_end_list <- c("09")
 
 # Directory paths
-indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/INPUTS/"          # Directory for input files
-indir2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/OUTPUTS/"        # Directory2 for input files
+indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/INPUTS/"          # Directory for input files
+indir2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/OUTPUTS/"        # Directory2 for input files
 file_drift <- "Drift_PM10_Nantes_7m.csv"                                                              # Drift file
 file_ms <- paste("data_preproc_MS_bgdata_0.5_",estim_YYYY,estim_MM,estim_DD,".Rda",sep='')          # Mobile sensor data file
 file_fs <- paste("data_preproc_FS_bgdata_0.5_",estim_YYYY,estim_MM,estim_DD,".Rda",sep='')          # Fixed sensor data file
-outdir <-"/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/04_Postproc/figs/" # Directory for output figures
-outdir2 <-"/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/OUTPUTS/"        # Directory for output files
+outdir <-"/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/04_Postproc/figs/" # Directory for output figures
+outdir2 <-"/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/OUTPUTS/"        # Directory for output files
 
 # Parameters for grid definition
 X1=345000; X2=365000; Y1=6680000; Y2=6701000    # Estimation domain limits
