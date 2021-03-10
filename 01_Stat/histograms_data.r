@@ -1,5 +1,5 @@
 # Set directory
-setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/01_Stat/") # !!! MUST BE UPDATED BY THE USER !!!
+setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/01_Stat/") # !!! MUST BE UPDATED BY THE USER !!!
 
 # Import libraries
 library(raster)
@@ -37,8 +37,8 @@ avgsens <- function(i,data1_sta_all,data2_sta_all){
 #           INITIALIZATION          # !!! MUST BE UPDATED BY THE USER !!!          
 #####################################
 
-indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/INPUTS/" # path for input directory
-dirout <-"/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/01_Stat/figs/" # path for output directory
+indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/INPUTS/" # path for input directory
+dirout <-"/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/01_Stat/figs/" # path for output directory
 pol="PM10" # pollutant
 ref_file <- paste0("mesures_ref_qthourly_",pol,".txt") # reference measurements file name
 Fsens_file <- "dataout_fixe_atmotrack_novembre_temp_hum_press.csv" # sensor measurements file name
