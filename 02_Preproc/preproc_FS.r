@@ -1,5 +1,5 @@
 # Set directory
-setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/02_Preproc/") # !!! MUST BE UPDATED BY THE USER !!!
+setwd("/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/02_Preproc/") # !!! MUST BE UPDATED BY THE USER !!!
 
 # Import libraries
 library(maptools)
@@ -28,9 +28,9 @@ library(chron)
 
 print("INITIALIZATION")
 
-indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/INPUTS/" # path for input directory
-dirout <-"/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/02_Preproc/figs/" # path for output directory plot
-dirout2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/MAPPING_SENSOR_DIR/OUTPUTS/" # path for output directory files 
+indir <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/INPUTS/" # path for input directory
+dirout <-"/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/02_Preproc/figs/" # path for output directory plot
+dirout2 <- "/ccc/work/cont004/ineris/gressena/microcapteurs_carto/SESAM/OUTPUTS/" # path for output directory files 
 pol="PM10"
 Fsens_file <- "dataout_fixe_atmotrack_novembre_temp_hum_press.csv" # sensor measurements file name
 ref_file <- paste0("mesures_ref_qthourly_",pol,".txt") # reference measurements file name
